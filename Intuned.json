@@ -1,0 +1,18 @@
+{
+  "apiAccess": {
+    "enabled": true
+  },
+  "authSessions": {
+    "enabled": false
+  },
+  "scale": {
+    "machineCount": 1,
+    "softLimit": 8,
+    "hardLimit": 10,
+    "memory": 2048,
+    "cpus": 6
+  },
+  "proxy": {
+    "enabled": false
+  }
+}

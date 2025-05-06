@@ -1,0 +1,54 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+      "es2021"
+    ],
+    "module": "commonjs",
+    "target": "es2021",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": false,
+    "incremental": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "noImplicitAny": false,
+    "composite": false,
+    "inlineSources": false,
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveWatchOutput": true,
+    "rootDir": "./",
+    "outDir": "./dist",
+    "paths": {
+      "primitives/*": [
+        "components/primitives/*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "node_modules/monaco-editor/**/*.d.ts",
+    "node_modules/@monaco-editor/**/*.d.ts",
+    "node_modules/@kusto/monaco-kusto/**/*.d.ts"
+  ],
+  "exclude": [
+    "public",
+    "dist",
+    "packagerWorkerAssets/packagerTemplates",
+    "httpRequests"
+  ]
+}
